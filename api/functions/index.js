@@ -118,7 +118,7 @@ function getOrderInfo(orderId) {
     var txRef = database.ref("/transactions/" + orderId);
     txRef.once("value", function (snapshot) {
       list.push(snapshot.val());
-      if (list.length > 0) {
+      if (list.length) {
         resolve(list[0]);
       } else {
         reject();

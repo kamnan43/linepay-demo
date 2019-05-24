@@ -1,0 +1,21 @@
+{
+  "line": {
+    "channelAccessToken": "",
+    "channelSecret": ""
+  },
+  "linepay": {
+    "api": "https://sandbox-api-pay.line.me",
+    "channelId": "",
+    "channelSecret": ""
+  },
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "serviceAccountFile": "./firebase-admin-key.json"
+  },
+  "apiUrl": "",
+  "webUrl": ""
+}

@@ -1,3 +1,5 @@
 api/functions/config.json
 api/functions/firebase-admin-key.json
 web/src/config.json
+api/functions/node_modules
+web/node_modules
